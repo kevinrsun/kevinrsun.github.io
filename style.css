@@ -1,0 +1,62 @@
+.menu a {
+    background-color: #2c3840;
+    font-size: 1.5rem;
+    padding-right: 2rem;
+}
+.logo {
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+.top-bar {
+    background-color: #2c3840;
+    padding: 1rem;
+    margin-bottom: 1.5rem;
+}
+.menu-button {
+    color: #2c3840;
+    font-weight: bold;
+}
+.profile-pic {
+    max-width: 70%;
+    max-height: 70%;
+}
+.about-me {
+    color: rgb(134, 155, 148);
+    font-weight: bold;
+    font-size: 2rem;
+}
+.info, html {
+    background-color: #1468a0;
+}
+#offCanvas {
+    background-color: #2c3840;
+}
+.menu-item {
+    font-weight: bold;
+}
+
+.title {
+    color: #2c3840;
+    font-weight: bold;
+    font-size: 2rem;
+}
+.origin {
+    color: #2c3840;;
+    font-size: 1.5rem;
+}
+.about {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+.link a {
+    color: white;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+.project-pic {
+    max-width: 75%;
+    
+}
+h2 {
+    font-weight: bolder;
+}

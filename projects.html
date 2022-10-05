@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Projects</title>
+	<link rel="stylesheet" href="css/foundation.css">
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="off-canvas-wrapper">
+        <!-- Your menu or Off-canvas content goes here -->
+        <div class="off-canvas position-left" id="offCanvas" data-off-canvas>
+            <!-- Close button -->
+            <button class="close-button" aria-label="Close menu" type="button" data-close>
+                <span aria-hidden="true">&times;</span>
+            </button>
+            <!-- Menu -->
+            <ul class="vertical menu">
+                <li><a class="menu-item" href="/index.html">Home Page</a></li>
+                <li><a class="menu-item" href="/projects.html">Projects</a></li>
+                <li><a class="menu-item" href="/resume.html">Resume</a></li>
+                <li><a class="menu-item" href="/fun.html">Fun Stuff</a></li>
+            </ul>
+        </div>
+        <!-- Your page content lives here -->
+        <div class="off-canvas-content info" data-off-canvas-content>
+            <!-- main content within a `grid-container` -->
+            <div class="top-bar">
+                <div class="top-bar-left">
+                  <a class="logo">Kevin Sun</a>
+                </div>
+                <div class="top-bar-right show-for-large">
+                  <ul class="menu">
+                    <li><a class="menu-item " href="/index.html">Home Page</a></li>
+                    <li><a class="menu-item" href="/projects.html">Projects</a></li>
+                    <li><a class="menu-item" href="/resume.html">Resume</a></li>
+                    <li><a class="menu-item" href="/fun.html">Fun Stuff</a></li>
+                  </ul>
+                </div>
+                <div>
+                    <button type="button" class="top-bar-right button hide-for-large menu-button" data-toggle="offCanvas">Open Menu</button>
+                </div>
+            </div>
+            <div class="grid-container">
+                <div class="cell title">Panoramic</div>
+                <div class="cell origin">Thomson Reuters Co-op</div>
+                <div class="cell about">Worked on this web application using Angular, a front-end framework.</div>
+                <div class="cell project-pic">
+                    <img src="/files/project1.png" alt="panoramic">
+                </div>
+                <div class="cell large-12 link">
+                    <a href="https://www.deweybstrategic.com/2019/02/thomson-reuters-panoramic-new-platform-integrates-the-practice-and-business-of-law.html" target="_blank">[Click For More Info]</a>
+                </div>
+
+                <br><br>
+
+                <div class="cell title">cg-fragshaders</div>
+                <div class="cell origin">CISC 420 - Computer Graphics</div>
+                <div class="cell about">Worked with WebGL fragment shaders to create cool effects/filters for videos.</div>
+                <div class="cell project-pic">
+                    <img src="/files/project2.jpg" alt="cg-fragshaders">
+                </div>
+                <div class="cell large-12 link">
+                    <a href="https://kevinrsun.github.io/cg-fragshaders/" target="_blank">[Deployment Link]</a>
+                </div>
+
+                <br><br>
+
+                <div class="cell title">Adobe After Effects Production</div>
+                <div class="cell origin">Graphic Design II</div>
+                <div class="cell about">Learned After Effects 2022 to do editting, color correction, and frame interpolation.</div>
+                <div class="cell project-pic">
+                    <img src="/files/project3.png" alt="after-effects">
+                </div>
+
+                <br><br>
+            </div>
+        </div>
+    </div>
+    <!-- include before closing <body> tag -->
+    <script src="js/vendor.js"></script>
+    <script src="js/foundation.js"></script>
+    <script type="application/javascript">
+        $(document).foundation();
+    </script>
+</body>
+</html>

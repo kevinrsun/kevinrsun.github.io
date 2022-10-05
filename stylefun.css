@@ -1,0 +1,81 @@
+.menu a {
+    background-color: #34049d;
+    color: #000;
+    font-size: 1.5rem;
+    padding-right: 2rem;
+}
+.menu a:hover {
+    background-color: #34049d;
+    color: white;
+    font-size: 1.5rem;
+    padding-right: 2rem;
+}
+.logo {
+    color: #000;
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+.logo:hover {
+    color: white;
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+.top-bar {
+    background-color: #34049d;
+    padding: 1rem;
+    margin-bottom: 1.5rem;
+}
+.menu-button {
+    background-color: #411495;
+    color: #000;
+    font-weight: bold;
+}.menu-button:hover {
+    background-color: #411495;
+    color: white;
+    font-weight: bold;
+}
+.profile-pic {
+    max-width: 70%;
+    max-height: 70%;
+}
+.about-me {
+    color: black;
+    font-weight: bold;
+    font-size: 2rem;
+}
+.info, html {
+    background-color: #411495;
+}
+#offCanvas {
+    background-color: #34049d;
+}
+.menu-item {
+    font-weight: bold;
+}
+
+.title {
+    color: #2c3840;
+    font-weight: bold;
+    font-size: 2rem;
+}
+.origin {
+    color: #2c3840;;
+    font-size: 1.5rem;
+}
+.about {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+.link a {
+    color: white;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+.project-pic {
+    max-height: 50%;
+    max-width: 50%;
+    
+}
+h2 {
+    font-weight: bolder;
+}

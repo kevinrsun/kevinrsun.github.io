@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Home Page</title>
+	<link rel="stylesheet" href="css/foundation.css">
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="off-canvas-wrapper">
+        <!-- Your menu or Off-canvas content goes here -->
+        <div class="off-canvas position-left" id="offCanvas" data-off-canvas>
+            <!-- Close button -->
+            <button class="close-button" aria-label="Close menu" type="button" data-close>
+                <span aria-hidden="true">&times;</span>
+            </button>
+            <!-- Menu -->
+            <ul class="vertical menu">
+                <li><a class="menu-item" href="/index.html">Home Page</a></li>
+                <li><a class="menu-item" href="/projects.html">Projects</a></li>
+                <li><a class="menu-item" href="/resume.html">Resume</a></li>
+                <li><a class="menu-item" href="/fun.html">Fun Stuff</a></li>
+            </ul>
+        </div>
+        <!-- Your page content lives here -->
+        <div class="off-canvas-content info" data-off-canvas-content>
+            <!-- main content within a `grid-container` -->
+            <div class="top-bar">
+                <div class="top-bar-left">
+                  <a class="logo">Kevin Sun</a>
+                </div>
+                <div class="top-bar-right show-for-large">
+                  <ul class="menu">
+                    <li><a class="menu-item " href="/index.html">Home Page</a></li>
+                    <li><a class="menu-item" href="/projects.html">Projects</a></li>
+                    <li><a class="menu-item" href="/resume.html">Resume</a></li>
+                    <li><a class="menu-item" href="/fun.html">Fun Stuff</a></li>
+                  </ul>
+                </div>
+                <div>
+                    <button type="button" class="top-bar-right button hide-for-large menu-button" data-toggle="offCanvas">Open Menu</button>
+                </div>
+
+            </div>
+            <div class="grid-container">
+                <div class="grid-x grid-padding-x">
+                    <div class="cell small-6 large-9 profile-pic">
+                        <img src="/files/headshot.jpg" alt="photo-headshot">
+                    </div>
+                    <div class="cell small-5 large-3 about-me">Hey! I am a Computer Science Major graduating this Spring. My goals after college include working in Software, perhaps with web applications, and getting a Shiba Inu!</div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- include before closing <body> tag -->
+    <script src="js/vendor.js"></script>
+    <script src="js/foundation.js"></script>
+    <script type="application/javascript">
+        $(document).foundation();
+    </script>
+</body>
+</html>

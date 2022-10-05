@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Resume</title>
+	<link rel="stylesheet" href="css/foundation.css">
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="off-canvas-wrapper">
+        <!-- Your menu or Off-canvas content goes here -->
+        <div class="off-canvas position-left" id="offCanvas" data-off-canvas>
+            <!-- Close button -->
+            <button class="close-button" aria-label="Close menu" type="button" data-close>
+                <span aria-hidden="true">&times;</span>
+            </button>
+            <!-- Menu -->
+            <ul class="vertical menu">
+                <li><a class="menu-item" href="/index.html">Home Page</a></li>
+                <li><a class="menu-item" href="/projects.html">Projects</a></li>
+                <li><a class="menu-item" href="/resume.html">Resume</a></li>
+                <li><a class="menu-item" href="/fun.html">Fun Stuff</a></li>
+            </ul>
+        </div>
+        <!-- Your page content lives here -->
+        <div class="off-canvas-content info" data-off-canvas-content>
+            <!-- main content within a `grid-container` -->
+            <div class="top-bar">
+                <div class="top-bar-left">
+                  <a class="logo">Kevin Sun</a>
+                </div>
+                <div class="top-bar-right show-for-large">
+                  <ul class="menu">
+                    <li><a class="menu-item " href="/index.html">Home Page</a></li>
+                    <li><a class="menu-item" href="/projects.html">Projects</a></li>
+                    <li><a class="menu-item" href="/resume.html">Resume</a></li>
+                    <li><a class="menu-item" href="/fun.html">Fun Stuff</a></li>
+                  </ul>
+                </div>
+                <div>
+                    <button type="button" class="top-bar-right button hide-for-large menu-button" data-toggle="offCanvas">Open Menu</button>
+                </div>
+            </div>
+            <div class="grid-y medium-grid-frame">
+                <div class="cell shrink header medium-cell-block-container">
+                    <div class="grid-x grid-padding-x">
+                        <div class="cell title">
+                            <h1>Resume Overview</h1>
+                        </div>
+                    </div>
+                </div>
+                <div class="cell medium-auto medium-cell-block-container">
+                    <div class="grid-x grid-padding-x">
+                        <div class="cell medium-4 medium-cell-block-y">
+                         <h2>Education</h2>
+                         <p>
+                            <a href="https://stthomas.edu/" target="_blank" style="color: rgb(0, 0, 98);"><b>University of St. Thomas</b></a><b> • Bachelor of Computer Science</b><br>
+
+                            Senior-level Computer Science student, graduating in May of 2023
+                        </p>
+                        <p>
+                            <a href="https://ehs.district196.org/" target="_blank" style="color: rgb(0, 0, 98);"><b>Eagan High School</b></a><b> • Diploma</b><br>
+
+                           Graduated 2018, participated in French club, NHS, NAHS, and Student Ambassador
+                        </p>
+                        </div>
+                        <div class="cell medium-8 medium-cell-block-y">
+                            <h2>Work Experience</h2>
+                            <p>
+                                <b>Thomson Reuters • Software Engineer Intern/Co-op</b><br>
+                                <ul>
+                                    <li>
+                                        Collaborate with a team of developers/testers utilizing Agile development methodologies
+                                    </li>
+                                    <li>
+                                        Onboard new developer/testers, help with setting up IDE, tools, and understanding best practices
+                                    </li>
+                                    <li>
+                                        Panoramic: Cloud-based legal workflow solution used by firms to plan, manage, and execute legal matters
+                                        <ul>
+                                            <li>
+                                                Front-end development using Angular and NgRx framework
+                                            </li>
+                                            <li>
+                                                Test performance of the application services and endpoints
+                                            </li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </p>
+                            <p>
+                                <b>HeyTutor / Grade Potential • Private Tutor</b><br>
+                                <ul>
+                                    <li>
+                                        Worked closely with multiple students to tutor Computer Science, Japanese, and Mathematics
+                                    </li>
+                                    <li>
+                                        Good ratings, reviews, and clean track history with clients
+                                    </li>
+                                </ul>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+             </div>
+        </div>
+    </div>
+    <!-- include before closing <body> tag -->
+    <script src="js/vendor.js"></script>
+    <script src="js/foundation.js"></script>
+    <script type="application/javascript">
+        $(document).foundation();
+    </script>
+</body>
+</html>
